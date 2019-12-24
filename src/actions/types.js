@@ -1,0 +1,50 @@
+export const FETCH_POSTS = 'FETCH_POSTS';
+export const NEW_POSTS = 'NEW_POSTS';
+export const ADMIN_LOGIN = 'ADMIN_LOGIN';
+export const VALIDATE_ADMIN = 'VALIDATE_ADMIN';
+export const VALIDATE_PASSWORD = 'VALIDATE_PASSWORD';
+export const FETCH_SUBJECTS = 'FETCH_SUBJECTS';
+export const NEW_SUBJECT = 'NEW_SUBJECT';
+export const SUBJECT_INFO = 'SUBJECT_INFO';
+export const SUBJECT_UPDATE = 'SUBJECT_UPDATE';
+export const SUBJECT_DELETE = 'SUBJECT_DELETE';
+export const ADMIN_UPLOAD_FILE = 'ADMIN_FILE_UPLOAD';
+export const ADMIN_GET_FILE = 'ADMIN_GET_FILE';
+export const FETCH_USERS = 'FETCH_USERS';
+export const NEW_USER = 'NEW_USER';
+export const USER_INFO = 'USER_INFO';
+export const USER_DELETE = 'USER_DELETE';
+export const USER_UPDATE = 'USER_UPDATE';
+
+export const FETCH_NEWS = 'FETCH_NEWS';
+export const NEWS_INFO = 'NEWS_INFO';
+export const NEW_NEWS = 'NEW_NEWS';
+export const NEWS_UPDATE = 'NEWS_UPDATE';
+export const NEWS_DELETE = 'NEWS_DELETE';
+
+export const FETCH_TOPICS = 'FETCH_TOPICS';
+export const NEW_TOPIC = 'NEW_TOPIC';
+export const TOPIC_UPDATE = 'TOPIC_UPDATE';
+export const TOPIC_DELETE = 'TOPIC_DELETE';
+
+export const FETCH_QUESTIONS = 'FETCH_QUESTIONS';
+export const CREATE_QUESTION = 'CREATE_QUESTIONS';
+export const QUESTION_INFO = 'QUESTION_INFO';
+export const QUESTION_UPDATE = 'QUESTION_UPDATE';
+export const QUESTIONS_DELETE = 'QUESTIONS_DELETE';
+
+export const FETCH_LESSONS = 'FETCH_LESSONS';
+export const LESSON_INFO = 'LESSON_INFO';
+export const NEW_LESSON = 'NEW_LESSON';
+export const LESSON_UPDATE = 'LESSON_UPDATE';
+export const LESSON_DELETE = 'LESSON_DELETE';
+
+export const FETCH_MOCK = 'FETCH_MOCK';
+export const MOCK_INFO = 'MOCK_INFO';
+export const NEW_MOCK_EXAM = 'NEW_MOCK_EXAM';
+
+export const FETCH_SUBJECT_CODE = 'FETCH_SUBJECT_CODE';
+export const NEW_SUBJECT_CODE = 'NEW_SUBJECT_CODE';
+export const SUBJECT_CODE_INFO = 'SUBJECT_CODE_INFO';
+export const SUBJECT_CODE_UPDATE = 'SUBJECT_CODE_UPDATE';
+export const RESEND_SUBJECT_CODE = 'RESEND_SUBJECT_CODE';

@@ -1,0 +1,10 @@
+.q-list{
+    width: 100% !important;
+    color: black !important; 
+    background-color: #e9ecef !important;
+    /* height: 100% !important; */
+}
+
+.question-list{
+    text-align: left !important;
+}

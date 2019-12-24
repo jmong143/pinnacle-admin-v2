@@ -1,0 +1,100 @@
+body{
+  /* background-image: url(http://pinnaclecpareview.ph/assets/admin/img/bg-home.png); */
+  /* height: 47vh; */
+  position: relative;
+  /* background-image: url(/assets/admin/img/bg-home.png); */
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.sidenav {
+    height: 100%;
+    /* width: 190px; */
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003469;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    /* font-size: 25px; */
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #ffdc00;
+  }
+
+  .sidenav button:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #ffdc00;
+  }
+  
+  .active {
+    background-color: green;
+    color: white;
+  }
+
+  .main {
+    margin-left: 208px; /* Same as the width of the sidenav */
+    /* padding: 0px 10px; */
+  }
+
+  .dropdown-container {
+    display: none;
+    background-color: #275686;
+    padding-left: 8px;
+  }
+
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    /* font-size: 20px; */
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px; overflow-y: hidden}
+    /* .sidenav a {font-size: 18px;} */
+  }
+
+  .logo{
+    height: 40px;
+    width: 180px;
+    margin-left: 6px;
+  }
+
+  .sidenav-link{
+    padding: 15px !important;
+  }
+
+  .sidenav-brand{
+    padding: 0 0 18px 0 !important;
+    margin: 3px !important;
+  }
+
+  .sidenav-brand:hover{
+    background-color: #003469 !important;
+  }
